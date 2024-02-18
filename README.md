@@ -10,6 +10,4 @@ OBS: Lembrando que essas informações são utilizadas em diagnósticos Médicos
 
 ## License
 
-MIT
-
-**Free Software, Hell Yeah!**
+OMS
