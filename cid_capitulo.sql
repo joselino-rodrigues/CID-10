@@ -1,5 +1,10 @@
+-- CRIA O BANCO DE DADOS
 CREATE DATABASE IF NOT EXISTS CID10;
+
+-- ESPECIFICA QUAL BANDO DE DADOS SERÁ USADO NA SESSÃO
 USE CID10;
+
+-- CRIA A TABELA
 CREATE TABLE cid_capitulo(
 id VARCHAR(2),
 cat_inicio VARCHAR(3),
@@ -7,6 +12,7 @@ cat_fim VARCHAR(3),
 descricao VARCHAR(122)
 );
 
+-- INSERE OS DADOS NA TABELA
 INSERT INTO cid_capitulo(id,cat_inicio,cat_fim,descricao) VALUES (1,'A00','B99','I - Algumas doenças infecciosas e parasitárias');
 INSERT INTO cid_capitulo(id,cat_inicio,cat_fim,descricao) VALUES (2,'C00','D48','II - Neoplasias [tumores]');
 INSERT INTO cid_capitulo(id,cat_inicio,cat_fim,descricao) VALUES (3,'D50','D89','III  - Doenças do sangue e dos órgãos hematopoéticos e alguns transtornos imunitários');
