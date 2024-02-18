@@ -1,9 +1,16 @@
+-- CRIA O BANDO DE DADDOS
 CREATE DATABASE IF NOT EXISTS CID10;
+
+-- ESPECIFICA QUAL BANDO DE DADOS SERÁ USADO NA SESSÃO
 USE CID10;
+
+-- CRIAÇÃO DA TABELA
 CREATE TABLE cid_categoria(
 id VARCHAR(3),
-descricao VARCHAR(145))
-;
+descricao VARCHAR(145)
+);
+
+-- INSERÇÃO DOS DADOS
 INSERT INTO cid_categoria(id,descricao) VALUES ('A00','Cólera');
 INSERT INTO cid_categoria(id,descricao) VALUES ('A01','Febres tifóide e paratifóide');
 INSERT INTO cid_categoria(id,descricao) VALUES ('A02','Outras infecções por Salmonella');
