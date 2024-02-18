@@ -1,9 +1,16 @@
+-- CRIA O BANCO DE DADOS
 CREATE DATABASE IF NOT EXISTS CID10;
+
+-- ESPECIFICA QUAL BANDO DE DADOS SERÁ USADO NA SESSÃO
 USE CID10;
+
+--CRIA A TABELA
 CREATE TABLE cid_sub_categoria(
-id VARCHAR(4),
-descricao VARCHAR(142))
-;
+  id VARCHAR(4),
+  descricao VARCHAR(142)
+);
+
+-- INSERE OS DADOS NA TABELA
 INSERT INTO cid_sub_categoria(id,descricao) VALUES ('A000','Cólera devida a Vibrio cholerae 01, biótipo cholerae');
 INSERT INTO cid_sub_categoria(id,descricao) VALUES ('A001','Cólera devida a Vibrio cholerae 01, biótipo El Tor');
 INSERT INTO cid_sub_categoria(id,descricao) VALUES ('A009','Cólera não especificada');
