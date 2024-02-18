@@ -6,10 +6,10 @@ USE CID10;
 
 -- CRIA A TABELA
 CREATE TABLE cid_capitulo(
-id VARCHAR(2),
-cat_inicio VARCHAR(3),
-cat_fim VARCHAR(3),
-descricao VARCHAR(122)
+  id VARCHAR(2),
+  cat_inicio VARCHAR(3),
+  cat_fim VARCHAR(3),
+  descricao VARCHAR(122)
 );
 
 -- INSERE OS DADOS NA TABELA
