@@ -1,12 +1,19 @@
+-- CRIA O BANCO DE DADOS
 CREATE DATABASE IF NOT EXISTS CID10;
+
+-- ESPECIFICA QUAL BANDO DE DADOS SERÁ USADO NA SESSÃO
 USE CID10;
+
+-- CRIA A TABELA
 CREATE TABLE cid_grupo(
-id VARCHAR(3),
-capitulo_id VARCHAR(2),
-cat_inicio VARCHAR(3),
-cat_fim VARCHAR(3),
-descricao VARCHAR(160))
-;
+  id VARCHAR(3),
+  capitulo_id VARCHAR(2),
+  cat_inicio VARCHAR(3),
+  cat_fim VARCHAR(3),
+  descricao VARCHAR(160)
+);
+
+-- INSERE OS DADOS NA TABELA
 INSERT INTO cid_grupo(id,capitulo_id,cat_inicio,cat_fim,descricao) VALUES (1,1,'A00','A09','Doenças infecciosas intestinais');
 INSERT INTO cid_grupo(id,capitulo_id,cat_inicio,cat_fim,descricao) VALUES (2,1,'A15','A19','Tuberculose');
 INSERT INTO cid_grupo(id,capitulo_id,cat_inicio,cat_fim,descricao) VALUES (3,1,'A20','A28','Algumas doenças bacterianas zoonóticas');
