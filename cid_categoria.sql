@@ -6,8 +6,8 @@ USE CID10;
 
 -- CRIAÇÃO DA TABELA
 CREATE TABLE cid_categoria(
-id VARCHAR(3),
-descricao VARCHAR(145)
+  id VARCHAR(3),
+  descricao VARCHAR(145)
 );
 
 -- INSERÇÃO DOS DADOS
