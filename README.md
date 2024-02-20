@@ -3,6 +3,11 @@
 
 OBS: Lembrando que essas informações são utilizadas em diagnósticos Médicos, caso queira utilizar lembre-se de usar por sua conta e risco, caso queira usar em projetos reais sugiro que confira linha por linha as informações das tabelas antes de utiliza-la em um projeto de Informática em Saúde. 
 
+```
+Existe o CID-11, a mais nova atualização do CID-10.
+
+```
+
 ## Apresentação
 
 - São no total 4 aquivos SQL
