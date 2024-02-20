@@ -5,7 +5,6 @@ OBS: Lembrando que essas informações são utilizadas em diagnósticos Médicos
 
 ```
 Existe o CID-11, a mais nova atualização do CID-10.
-
 ```
 
 ## Apresentação
